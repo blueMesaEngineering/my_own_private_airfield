@@ -1,0 +1,86 @@
+/* html {
+  overflow: hidden;
+} */
+body {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.footer {
+  font-size: 8pt;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(202, 202, 202);
+}
+/* .header {
+  display: inline;
+  list-style-type: none;
+  padding: 18px;
+  list-style-type: none;
+} */
+h1,
+h2,
+p,
+ul,
+li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+}
+ul.header {
+  background-color: #111;
+}
+ul.header li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 17px;
+  display: inline-block;
+}
+.content {
+  /* background-color: rgba(140, 140, 140, 0.2); */
+  padding: 15px;
+  text-align: center;
+}
+.active {
+  background-color: #0099ff;
+}
+
+/* .bg-image {
+  padding: 125px 150px 150px 150px;
+  background-image: url(Assets/Images/Backgrounds/183255.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+} */
+
+div.fixed {
+  position: fixed;
+}
+
+img.profile {
+  height: 200px;
+  width: 200px;
+}
+.left {
+  float: left;
+  padding: 0 20px 20px 0;
+}
+.gradientToLeft {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0),
+    rgba(0, 0, 0, 0.7)
+  );
+}
